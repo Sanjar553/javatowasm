@@ -1,0 +1,27 @@
+[package]
+name = "jawsm"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+boa_ast = "0.20"
+boa_parser = "0.20"
+walrus = "0.22"
+boa_interner = "0.20"
+rand = "0.8.5"
+tinytemplate = "1.1"
+serde = { version = "1.0", features = ["derive"] }
+anyhow = "1"
+tera = "1.20.0"
+lazy_static = "1"
+tarnik-ast = { git = "https://github.com/drogus/tarnik.git", rev = "303de23d370a06f7a3656af714765df42d1b2893" }
+tarnik = { git = "https://github.com/drogus/tarnik.git", rev = "303de23d370a06f7a3656af714765df42d1b2893" }
+wat = "1.224.0"
+velcro = "0.5"
+wast = "224.0.0"
+similar = "2.7.0"
+bytemuck = "1.22.0"
+utf16string = "0.2.0"
+num-bigint = "0.4.6"
